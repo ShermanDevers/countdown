@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Timer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <h1>Enter time:</h1>
+    <div class="SetTimer">
+        <button id="start" type="submit" onclick="readInput()">Start Countdown</button>
+        <input class="time" inputmode="numeric" id="hours" name="hours" placeholder="00" required>
+        <p>:</p>
+        <input class="time" inputmode="numeric" id="minutes" name="minutes" placeholder="00"  required>
+        <p>:</p>
+        <input class="time" inputmode="numeric" id="seconds" name="seconds" placeholder="00" required>
+        <button id="reset" type="submit" onclick="resetTimer()">Reset timer</button>
+    </div>
+    <h4 class="hoursText">Hours</h4>
+    <h4 class="minutesText">Minutes</h4>
+    <h4 class="secsText">Seconds</h4>
+
+    <div class="timer">
+        <h1 class="timerText">00:00:00</h1>
+    </div>
+    <a href="https://github.com/ShermanDevers/shermandevers.github.io" target="_blank">
+        <i class='bx bxl-github bx-md' title="Source Code" style="color: white;"></i>
+    </a>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,107 @@
+body {
+    background-color: black;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.timer {
+    font-size: 48px;
+    padding: 20px;
+    border: solid;
+    border-radius: 5px;
+    color: white;
+    
+}
+
+.timerText {
+    color: gray;
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+h4 {
+    display: inline;
+    color: white;
+    padding-left: 20px;
+    top: 5px;
+}
+
+.hoursText {
+    position: absolute;
+    padding-right: 50px;
+    margin-right: 20px;
+    right: 920px;
+    top: 120px;
+}
+
+.minutesText {
+    position: absolute;
+    padding-right: 60px;
+    padding-left: 20px;
+    right: 800px;
+    top: 120px;
+
+}
+
+.secsText {
+    position: absolute;
+    padding-left: 20px;
+    right: 750px;
+    top: 120px;
+
+}
+
+.time {
+    font-size: large;
+    display: inline;
+    background-color: white;
+    flex-shrink: 0;
+    height: 2rem;
+    margin: 0rem 2rem 2rem 2rem;
+    width: 25px;
+    border-radius: 5px;
+}
+
+::placeholder {
+    color: grey;
+    opacity: 1;
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+    text-align: center;
+}
+
+#start {
+    background-color: white;
+    flex-shrink: 0;
+    height: 3.7rem;
+    margin-right: 5.1rem;
+    width: 16.4rem;
+}
+
+#reset {
+    display: inline;
+    background-color: white;
+    flex-shrink: 0;
+    height: 3.7rem;
+    margin-left: 5.1rem;
+    width: 16.4rem;
+
+}
+
+p {
+    display: inline;
+}
+
+.div {
+    background-color: black;
+}
+
+i {
+    border-radius: 100%;
+}
