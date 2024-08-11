@@ -59,7 +59,7 @@ function updateTimer() {
         const hours = Math.floor(secondsRemaining / 3600);
         const minutes = Math.floor((secondsRemaining / 60) % 60);
         const seconds = secondsRemaining % 60;
-        newTime = `${hours.toString().padStart(2, 0)}:${minutes.toString().padStart(2, 0)}:${seconds.toString().padStart(2, 0)}`;;
+        newTime = `${hours.toString().padStart(2, 0)}:${minutes.toString().padStart(2, 0)}:${seconds.toString().padStart(2, 0)}`;
         timerElement.textContent = newTime;
         document.title = newTime;
         secondsRemaining--;
@@ -74,7 +74,7 @@ function resetTimer() {
     const hours = Math.floor(originalSecondsRemaining / 3600);
     const minutes = Math.floor((originalSecondsRemaining / 60) % 60);
     const seconds = originalSecondsRemaining % 60;
-    newTime = `${hours.toString().padStart(2, 0)}:${minutes.toString().padStart(2, 0)}:${seconds.toString().padStart(2, 0)}`
+    newTime = `${hours.toString().padStart(2, 0)}:${minutes.toString().padStart(2, 0)}:${seconds.toString().padStart(2, 0)}`;
     timerElement.textContent = newTime;
     document.title = newTime;
     timerStart = false;
